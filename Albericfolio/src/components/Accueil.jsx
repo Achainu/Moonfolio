@@ -3,7 +3,7 @@ import Alberic from '../assets/Amani.jpg'; // image placée dans src/assets
 
 const Accueil = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center h-screen   text-white">
+    <div id="accueil" className="flex flex-col md:flex-row items-center h-screen   text-white">
 
       {/* Image en haut sur mobile, à droite sur desktop */}
       <div className="w-full md:w-1/2 p-4 flex justify-center items-center">
@@ -13,6 +13,7 @@ const Accueil = () => {
           className="rounded-full shadow w-64 h-64 md:w-96 md:h-96 object-cover mt-8
            md:mt-16 border-8 border-warning 
           "
+          style={{ borderRadius: '49% 0% 53% 0% / 25% 25% 25% 25%' }}
           
         />
       </div>
