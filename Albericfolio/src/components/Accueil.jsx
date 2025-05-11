@@ -3,7 +3,7 @@ import Alberic from '../assets/Amani.jpg'; // image placée dans src/assets
 
 const Accueil = () => {
   return (
-    <div id="accueil" className="flex flex-col md:flex-row items-center h-screen   text-white">
+    <div id="accueil"  className="flex flex-col md:flex-row items-center h-screen   text-white">
 
       {/* Image en haut sur mobile, à droite sur desktop */}
       <div className="w-full md:w-1/2 p-4 flex justify-center items-center">
